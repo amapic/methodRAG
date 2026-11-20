@@ -4,7 +4,7 @@ Banc d'essai reproductible pour mesurer la qualité de la **recherche** (le « R
 
 *English summary: a reproducible benchmark comparing query expansion, hybrid search (BM25 + dense, RRF), HyDE and cross-encoder reranking on SciFact, NFCorpus and a fresh arXiv corpus (abstracts submitted Aug–Oct 2026, after the LLM's training cutoff). Main findings: enriching the query beats replacing it; hybrid search is a strong, LLM-free default; HyDE helps dense/hybrid retrieval on the two public corpora but is not confirmed on the fresh corpus, and costs about 3 s per query. Results are in French below; scripts and CSV outputs are language-independent.*
 
-Article associé : [[lien Medium à ajouter]](https://medium.com/@amaury.pichat/les-m%C3%A9thodes-rag-avanc%C3%A9es-valent-elles-leur-co%C3%BBt-je-les-ai-mesur%C3%A9es-45f7c0e125d6?postPublishedType=initial)
+[[Article Medium associé]](https://medium.com/@amaury.pichat/les-m%C3%A9thodes-rag-avanc%C3%A9es-valent-elles-leur-co%C3%BBt-je-les-ai-mesur%C3%A9es-45f7c0e125d6?postPublishedType=initial)
 
 ## La question
 

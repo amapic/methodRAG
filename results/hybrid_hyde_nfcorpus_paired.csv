@@ -1,0 +1,10 @@
+A,B,ecart_moyen_ndcg10,ic95_bas,ic95_haut,p_permutation
+hybrid:baseline,bm25:baseline,0.0367,0.0244,0.0497,0.0001
+hybrid:baseline,dense:baseline,0.0001,-0.0150,0.0158,0.9873
+hybrid:baseline,bm25:expand,-0.0184,-0.0357,-0.0016,0.0380
+hybrid:expand,hybrid:baseline,0.0320,0.0142,0.0503,0.0004
+hybrid:expand,bm25:expand,0.0137,0.0033,0.0242,0.0103
+hybrid:expand,dense:expand,0.0176,0.0054,0.0303,0.0067
+hyde:bm25,bm25:expand,0.0018,-0.0162,0.0201,0.8527
+hyde:dense,dense:expand,0.0279,0.0148,0.0411,0.0001
+hyde:hybrid,hybrid:expand,0.0212,0.0067,0.0363,0.0057

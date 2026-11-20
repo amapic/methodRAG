@@ -1,0 +1,71 @@
+=>avec sonnet 5.5
+PS C:\Users\amo\Documents\projet dev\ia\comparaison recherche texte> python eval_query_rewriting.py --datasets nfcorpus
+
+===== nfcorpus =====
+  3633 documents, 323 requêtes évaluées
+  reformulation des requêtes...
+  latence LLM moyenne par requête : 2.23s
+  requêtes sans reformulation (refus du LLM) : 0/323
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1718.47it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  embeddings du corpus chargés depuis embeddings_cache\nfcorpus_BAAI_bge-small-en-v1.5_32a51625bc.npy (pas de réencodage)
+
+--- nfcorpus / bm25 ---
+  temps de recherche par requête (baseline, hors LLM) : 0.2 ms
+#    Model               NDCG@10    Recall@10    Recall@100    MRR@10
+---  ------------------  ---------  -----------  ------------  --------
+a    bm25:baseline       0.306      0.145        0.240         0.519
+b    bm25:rewrite        0.300      0.152        0.280ᵃ        0.490
+c    bm25:expand_concat  0.380ᵃᵇᵈ   0.188ᵃᵇᵈ     0.328ᵃᵇ       0.591ᵃᵇᵈ
+d    bm25:multi_rrf      0.360ᵃᵇ    0.177ᵃᵇ      0.324ᵃᵇ       0.565ᵃᵇ
+
+--- nfcorpus / dense ---
+  temps de recherche par requête (baseline, hors LLM) : 6.0 ms
+#    Model                NDCG@10    Recall@10    Recall@100    MRR@10
+---  -------------------  ---------  -----------  ------------  --------
+a    dense:baseline       0.344      0.162        0.311         0.528
+b    dense:rewrite        0.338      0.167        0.325         0.532
+c    dense:expand_concat  0.378ᵃᵇ    0.183ᵃᵇ      0.353ᵃᵇ       0.579ᵃᵇ
+d    dense:multi_rrf      0.365ᵃᵇ    0.179ᵃ       0.347ᵃᵇ       0.570ᵃᵇ
+
+Fini. Tableaux CSV dans ./results/ ; lettres en exposant = significativement meilleur que la méthode correspondante (p < 0.05).
+
+aec haiku5-5
+PS C:\Users\amo\Documents\projet dev\ia\comparaison recherche texte> python eval_query_rewriting.py --datasets nfcorpus
+
+===== nfcorpus =====
+  3633 documents, 323 requêtes évaluées
+  reformulation des requêtes...
+  latence LLM moyenne par requête : 1.37s
+  requêtes sans reformulation (refus du LLM) : 0/323
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 2764.94it/s]
+  embeddings du corpus chargés depuis embeddings_cache\nfcorpus_BAAI_bge-small-en-v1.5_32a51625bc.npy (pas de réencodage)
+
+--- nfcorpus / bm25 ---
+  temps de recherche par requête (baseline, hors LLM) : 0.2 ms
+#    Model               NDCG@10    Recall@10    Recall@100    MRR@10
+---  ------------------  ---------  -----------  ------------  --------
+a    bm25:baseline       0.306      0.145        0.240         0.519
+b    bm25:rewrite        0.290      0.147        0.266ᵃ        0.477
+c    bm25:expand_concat  0.362ᵃᵇᵈ   0.176ᵃᵇ      0.325ᵃᵇᵈ      0.568ᵃᵇ
+d    bm25:multi_rrf      0.351ᵃᵇ    0.171ᵃᵇ      0.313ᵃᵇ       0.561ᵃᵇ
+
+--- nfcorpus / dense ---
+  temps de recherche par requête (baseline, hors LLM) : 5.2 ms
+#    Model                NDCG@10    Recall@10    Recall@100    MRR@10
+---  -------------------  ---------  -----------  ------------  --------
+a    dense:baseline       0.344      0.162        0.311         0.528
+b    dense:rewrite        0.331      0.160        0.314         0.525
+c    dense:expand_concat  0.358ᵇ     0.175ᵃᵇ      0.334ᵃᵇ       0.556ᵇ
+d    dense:multi_rrf      0.356ᵇ     0.172        0.342ᵃᵇ       0.550
+
+Fini. Tableaux CSV dans ./results/ ; lettres en exposant = significativement meilleur que la méthode correspondante (p < 0.05).
+PS C:\Users\amo\Documents\projet dev\ia\comparaison recherche texte> python eval_query_rewriting.py --datasets nfcorpus
+
+===== nfcorpus =====
+  3633 documents, 323 requêtes évaluées
+  reformulation des requêtes...
+
+ERREUR appel LLM (NotFoundError), version anthropic 1.17.0 :
+Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-haik-5-5'}, 'request_id': 'req_011CggLZ65SfnWqFjB9mu5ja'}
+Modèle utilisé : claude-haik-5-5

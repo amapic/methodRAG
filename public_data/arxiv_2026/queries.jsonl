@@ -1,0 +1,150 @@
+{"_id": "q1", "text": "How do large language models handle subjective or controversial topics when queried in different languages?"}
+{"_id": "q2", "text": "How can I evaluate the reliability and guarantees of different defenses against adversarial attacks in LLM-based agent systems?"}
+{"_id": "q3", "text": "How can cyber threat intelligence be analyzed more accurately and transparently using graph-based methods that combine structured data retrieval with natural language generation?"}
+{"_id": "q4", "text": "What are the most effective methods for detecting harmful content in Arabic text across different dialects?"}
+{"_id": "q5", "text": "How should recommender systems be evaluated in two-dimensional carousel layouts instead of traditional single-list formats?"}
+{"_id": "q6", "text": "How can large language models assist in conducting systematic literature reviews while ensuring human verification of the results?"}
+{"_id": "q7", "text": "How can AI systems remember and reuse past interactions with documents to improve future searches and reduce costs?"}
+{"_id": "q8", "text": "How can sequential recommendation systems effectively combine user interaction patterns with item descriptions to improve prediction accuracy?"}
+{"_id": "q9", "text": "How can decision models be adapted to improve recommendation systems by leveraging structured knowledge and agent-based candidate selection?"}
+{"_id": "q10", "text": "How can video retrieval systems better capture interactions between people in multi-shot video clips?"}
+{"_id": "q11", "text": "How do different search engines and AI assistants vary in the URLs they cite for the same set of queries?"}
+{"_id": "q12", "text": "How can language models better answer questions by selecting and organizing relevant information from entire documents instead of using the full text?"}
+{"_id": "q13", "text": "How can retrieval-augmented generation improve the automated fixing of incorrect API calls in Internet of Things applications?"}
+{"_id": "q14", "text": "How do large language models handle social bias in Chinese social media content, especially when expressions include internet slang, emojis, or sarcasm?"}
+{"_id": "q15", "text": "How does adding multilingual training data affect the performance of models identifying figurative language in proverbs across different languages?"}
+{"_id": "q16", "text": "What are the most efficient and effective methods for combining multiple expert language models into a single model without significant computational overhead?"}
+{"_id": "q17", "text": "How can I efficiently retrieve attention keys with controlled error bounds while decoding long sequences in language models?"}
+{"_id": "q18", "text": "How can recommender systems balance accuracy and diversity while leveraging multimodal data to improve recommendation results?"}
+{"_id": "q19", "text": "What are the most effective techniques for improving document-grounded quantitative reasoning in language models without significantly increasing computational cost?"}
+{"_id": "q20", "text": "How can a question answering system improve answer selection robustness when given misleading passages in retrieval-augmented generation?"}
+{"_id": "q21", "text": "How can a recommendation system fairly distribute benefits to users based on their contributions to the system's learning process?"}
+{"_id": "q22", "text": "How can a language model recover supporting evidence for a decision when trained only on the final verdicts without explicit annotations?"}
+{"_id": "q23", "text": "How can I train a multimodal AI model to use visual tools effectively for reasoning tasks?"}
+{"_id": "q24", "text": "How can synthetic essays be improved to better mimic the errors made by language learners for automated essay scoring?"}
+{"_id": "q25", "text": "How can retrieval systems efficiently select the most relevant subset of documents for a large language model's context window when dealing with open-ended queries?"}
+{"_id": "q26", "text": "How can large language models be adjusted to reduce incorrect refusals of harmless but safety-related requests while maintaining their safety features?"}
+{"_id": "q27", "text": "How can I find and summarize raw, unedited videos from social media or CCTV for specific real-world events?"}
+{"_id": "q28", "text": "How can I accurately match survey questions that assess the same sociological concept despite differences in wording or phrasing?"}
+{"_id": "q29", "text": "How much better can sentence selection models perform compared to trivial baselines and what is the maximum possible performance on predicting which sentences readers will highlight in a document?"}
+{"_id": "q30", "text": "How can embedding-based retrieval models be improved to better handle reasoning-intensive queries and optimize for downstream performance?"}
+{"_id": "q31", "text": "What is a unified approach to combining vector search, keyword search, and graph-based retrieval for document search engines?"}
+{"_id": "q32", "text": "What is the most effective way to build a lightweight but high-performing machine translation model that also handles related tasks like post-editing and quality estimation without requiring complex reasoning at runtime?"}
+{"_id": "q33", "text": "How can recommender systems be automatically analyzed to identify specific user-facing failures and then improved without manual intervention?"}
+{"_id": "q34", "text": "How can recommendation systems generate diverse headlines that cater to niche user interests while still selecting the most relevant one for each user in real time?"}
+{"_id": "q35", "text": "What are the most effective methods for document review in legal cases when using machine learning or AI tools?"}
+{"_id": "q36", "text": "How can cultural heritage data be automatically collected and enriched from the web while ensuring quality, depth, and ethical considerations?"}
+{"_id": "q37", "text": "How can we use token-level confidence scores from language models to improve answer accuracy while reducing computational cost?"}
+{"_id": "q38", "text": "How do large language models differ in their internal processing when they generate step-by-step reasoning versus providing direct answers to math problems?"}
+{"_id": "q39", "text": "How can I create a large dataset to improve reasoning in audio-language models by incorporating detailed audio descriptions and complex reasoning traces?"}
+{"_id": "q40", "text": "How can large language models be evaluated for bias toward choosing more popular but incorrect answers in multiple-choice questions?"}
+{"_id": "q41", "text": "How can a biomedical evidence synthesis system avoid increasing false positives when retrieving more studies from a literature skewed toward positive results?"}
+{"_id": "q42", "text": "How can recommendation systems handle users with inconsistent or rapidly changing preferences while still providing accurate suggestions?"}
+{"_id": "q43", "text": "How can I efficiently combine vector similarity search with label-based filtering while minimizing memory usage in large datasets?"}
+{"_id": "q44", "text": "How does the rise of AI-generated explainer videos impact the balance between service-oriented and creative content in digital media?"}
+{"_id": "q45", "text": "How does sequential versus mixed language training affect the linguistic specialization of routing mechanisms in mixture-of-experts language models?"}
+{"_id": "q46", "text": "What are the limitations of traditional document interfaces in multi-step search agents, and how can a new approach improve evidence gathering by revisiting pages later?"}
+{"_id": "q47", "text": "What are the most efficient model architectures for making fast, structured decisions in AI systems while maintaining high accuracy and calibration?"}
+{"_id": "q48", "text": "How can linear recommendation models be used to extract interpretable topics from user-item interactions without additional training?"}
+{"_id": "q49", "text": "What are the key privacy risks in AI systems that personalize user interactions over time and across different components?"}
+{"_id": "q50", "text": "How can an e-commerce search engine improve query reformulation to better match user intent while ensuring retrieved items remain relevant?"}
+{"_id": "q51", "text": "How can multimodal models accurately extract product attribute values from both text and images when the correct value depends on subtle visual or textual details?"}
+{"_id": "q52", "text": "How can a search engine generate relevant, personalized, and business-value-aware item candidates for recall and pre-ranking in e-commerce?"}
+{"_id": "q53", "text": "How can I generate realistic, verifiable training environments for AI agents that perform complex professional tasks involving multiple files and workflows?"}
+{"_id": "q54", "text": "How can I automatically redact sensitive information from unstructured text documents while providing clear explanations for each redaction decision?"}
+{"_id": "q55", "text": "How can a pretrained language model be fine-tuned in a self-supervised way without needing negative examples, additional data views, or graph structures?"}
+{"_id": "q56", "text": "How can a rule-based parser generate both constituency and dependency structures for English text while maintaining interpretability?"}
+{"_id": "q57", "text": "How can I automatically verify and correct page-level citations in answers generated by large language models when working with multi-page document images?"}
+{"_id": "q58", "text": "What are the computational complexity and certification requirements for verifying that a language model does not leak information from its training data under a given prompt domain and decoding strategy?"}
+{"_id": "q59", "text": "How can I protect the privacy of my inputs when using an AI model through an API without losing the usefulness of the results?"}
+{"_id": "q60", "text": "How do language models distinguish between different speaker roles like an assistant, roleplay characters, and story narrators in their internal representations?"}
+{"_id": "q61", "text": "How can large language models dynamically gather additional evidence from a text-attributed graph during reasoning without relying on a fixed set of neighbors?"}
+{"_id": "q62", "text": "How can a student model in reinforcement learning from human feedback (RLHF) be trained more effectively by selectively revisiting earlier training data?"}
+{"_id": "q63", "text": "How can a recommendation system adapt to changing user preferences that vary over time by adjusting the importance of different types of item features like text, images, or audio?"}
+{"_id": "q64", "text": "How does expanding the document index in a retrieval-augmented question answering system affect the consistency of its answers when other factors are held constant?"}
+{"_id": "q65", "text": "What are efficient graph-based methods for multi-hop question answering that minimize query processing time and context size without sacrificing answer quality?"}
+{"_id": "q66", "text": "How can I compress a binary string with limited ones to enable efficient error-free recovery of individual bits using a small number of quantum queries?"}
+{"_id": "q67", "text": "How can we improve the interpretability of neural search models that use specialized sub-models to enhance retrieval performance?"}
+{"_id": "q68", "text": "How can sequential, feedback-driven approaches improve the accuracy and efficiency of retrieval-augmented generation systems compared to traditional monolithic context methods?"}
+{"_id": "q69", "text": "How can document retrieval systems balance retrieval quality with geographic constraints like network latency, data residency rules, and cross-region costs?"}
+{"_id": "q70", "text": "How well do vision-language models handle identifying and localizing architectural components across different types of views like plans, sections, and elevations in drawings?"}
+{"_id": "q71", "text": "How can large language models accurately answer complex questions using enterprise product documentation with multiple interconnected topics?"}
+{"_id": "q72", "text": "How can I systematically design effective prompts for AI systems to ensure they produce accurate, reliable, and contextually appropriate outputs for complex tasks?"}
+{"_id": "q73", "text": "What are efficient multi-vector retrieval models that balance retrieval speed and ranking effectiveness for long and complex queries?"}
+{"_id": "q74", "text": "How can a model improve its ability to generate concise and effective referring expressions by observing how humans process language during comprehension?"}
+{"_id": "q75", "text": "What are the most effective methods for improving natural language processing performance on medieval Latin documentary texts when existing tools fail?"}
+{"_id": "q76", "text": "How can I optimize the hyperparameters of a retrieval-augmented generation system to balance accuracy and cost while diagnosing whether errors come from retrieval or generation?"}
+{"_id": "q77", "text": "How well do the preferences of large language models, as measured in standard economic or psychological tests, predict their behavior in real-world strategic situations like social dilemmas?"}
+{"_id": "q78", "text": "How can personalized video ads be dynamically generated and optimized in real-time to better match individual user preferences and improve advertising performance metrics?"}
+{"_id": "q79", "text": "How can I automatically extract a hierarchical structure from a PDF or Word document that ensures all relevant content is included while minimizing unnecessary text for analysis?"}
+{"_id": "q80", "text": "How can a recommendation system dynamically adjust its ranking and re-ranking strategies in real-time to better capture user intent and improve engagement metrics?"}
+{"_id": "q81", "text": "How do large language models handle legal reasoning when the same case facts lead to different outcomes in different jurisdictions?"}
+{"_id": "q82", "text": "How can I automatically classify hydropower licensing documents into environmental mitigation obligations when some categories have no training examples and others have very few?"}
+{"_id": "q83", "text": "How can an AI agent efficiently manage its context memory to preserve critical safety rules while optimizing storage space?"}
+{"_id": "q84", "text": "How reliable are embedding-based evaluations for determining if a user interface element is semantically relevant to a given instruction in mobile and web applications?"}
+{"_id": "q85", "text": "What evidence exists in real-world AI assistant conversations about whether users follow through on purchase recommendations?"}
+{"_id": "q86", "text": "What are some methods for storing and retrieving graph-structured data using associative memory systems?"}
+{"_id": "q87", "text": "How does the amount of search effort impact the quality of answers generated by automated information-seeking systems?"}
+{"_id": "q88", "text": "How can I efficiently find relevant research papers by expanding from initial results and ensuring claims are supported while keeping the process transparent and cost-effective?"}
+{"_id": "q89", "text": "How can a vision-language model be used to rerank multimodal search results by selecting the best candidate from a set of options?"}
+{"_id": "q90", "text": "How can I find urban outdoor locations that match both the activities I want to do and the atmosphere I prefer, based on natural language descriptions?"}
+{"_id": "q91", "text": "What are the efficiency and accuracy tradeoffs of using sparse, binary activations in large-scale language models compared to dense models?"}
+{"_id": "q92", "text": "How do different retrieval-augmented generation (RAG) architectures compare in terms of citation precision, answer accuracy, and robustness across varied document corpora, embeddings, and evaluation methods?"}
+{"_id": "q93", "text": "How can speech-based search systems retrieve documents directly from spoken queries without first converting speech to text?"}
+{"_id": "q94", "text": "How can a document search system efficiently select evidence to cover multiple viewpoints within a limited context size while ensuring each viewpoint is supported by distinct sources?"}
+{"_id": "q95", "text": "How can alternative query formulations be effectively combined with the original query to improve search result rankings without retraining the retrieval model?"}
+{"_id": "q96", "text": "How can we measure the difficulty and resource demands of verifying misinformation generated by large language models to prioritize fact-checking efforts?"}
+{"_id": "q97", "text": "How can we evaluate and predict the quality of intermediate answers during iterative retrieval-augmented question answering processes?"}
+{"_id": "q98", "text": "What techniques improve the accuracy of semantic parsers for e-commerce search queries when training data is scarce?"}
+{"_id": "q99", "text": "How can AI systems ask questions that encourage deeper exploration and more informative responses in human-AI conversations?"}
+{"_id": "q100", "text": "How can we generate actionable intervention plans for students identified as at-risk by predictive models while ensuring they meet practical constraints like timing, budget, and resource availability?"}
+{"_id": "q101", "text": "How can we optimize the reuse of intermediate computational results across multiple machine learning models to balance computational cost and performance?"}
+{"_id": "q102", "text": "How can recommendation systems generate accurate suggestions while also ensuring the credibility of the recommended content?"}
+{"_id": "q103", "text": "How can a document search system dynamically adjust its retrieval and context construction to better match the complexity and requirements of a given query?"}
+{"_id": "q104", "text": "What are effective methods for document retrieval in retrieval-augmented generation systems that leverage non-Euclidean geometry to improve search performance?"}
+{"_id": "q105", "text": "How can I detect if a generated review was influenced by a specific protected document without relying on model-specific watermarks?"}
+{"_id": "q106", "text": "How does a conversational AI interface compare to traditional search filters or a combination of both for finding events in a large catalog?"}
+{"_id": "q107", "text": "How can byte-level input sequences for transformer models be compressed without losing translation accuracy?"}
+{"_id": "q108", "text": "How can automated systems identify and analyze counter-narratives that challenge racial stereotypes in online discussions?"}
+{"_id": "q109", "text": "How does the amount of training data affect whether a shared or separate projection should be used for dense retrieval in semantic search or question answering systems?"}
+{"_id": "q110", "text": "How do small variations in prompt wording affect the behavior of AI models in repeated strategic decision-making scenarios?"}
+{"_id": "q111", "text": "How can large language models be used to design and optimize experimental processes in fields like pharmaceutical development?"}
+{"_id": "q112", "text": "How can short or ambiguous search queries be improved for better document retrieval using additional feedback without retraining the search model?"}
+{"_id": "q113", "text": "How can a visual search system handle queries that combine an image with a text description of desired modifications, and rank results by how well they match the query?"}
+{"_id": "q114", "text": "What methods can effectively retrieve and rank prior research papers to solve a given open-ended scientific problem when the solution is not yet known?"}
+{"_id": "q115", "text": "How can a document search system improve retrieval accuracy by better aligning user queries with item representations while also optimizing for fast inference?"}
+{"_id": "q116", "text": "How can a matching platform recommend jobs or potential partners in a way that balances fairness between users while still ensuring good matches for everyone?"}
+{"_id": "q117", "text": "What are the linguistic and structural differences between AI-generated propaganda and human-written news articles in French media?"}
+{"_id": "q118", "text": "What are the latest machine translation resources and models available for Portuguese to Nheengatu, and how do they perform on legal texts and spontaneous speech?"}
+{"_id": "q119", "text": "How can large language models be improved to better maintain consistent understanding of evolving situations and generate more reliable responses?"}
+{"_id": "q120", "text": "How can recommendation systems efficiently handle very long user interaction histories without losing important temporal patterns or increasing online computation costs?"}
+{"_id": "q121", "text": "How can reviewer comments in academic peer review be automatically linked to the specific parts of a paper they refer to?"}
+{"_id": "q122", "text": "How can a language model efficiently retrieve and use relevant document context without increasing processing time as the context grows?"}
+{"_id": "q123", "text": "How can document retrieval systems effectively handle tables, charts, and layout information in visually rich documents to improve search accuracy?"}
+{"_id": "q124", "text": "How can machine translation systems accurately handle gender when translating from a gender-neutral language like English to a gendered language such as Romanian?"}
+{"_id": "q125", "text": "How can structured probabilistic methods improve the accuracy and transparency of AI agents in making real-time predictions about future events?"}
+{"_id": "q126", "text": "How can aircraft maintenance technicians quickly find and use diagrams, procedures, and safety information from maintenance manuals using AI?"}
+{"_id": "q127", "text": "How can a multi-hop question answering system dynamically refine its search queries based on the evidence it retrieves from a large corpus?"}
+{"_id": "q128", "text": "How do AI-generated search overviews differ in visibility and source exposure between Chinese and English search results?"}
+{"_id": "q129", "text": "How can large language models generate enterprise documents that integrate information from multiple heterogeneous knowledge sources without favoring one source over others?"}
+{"_id": "q130", "text": "How well do AI agents perform in non-English languages compared to English when solving complex tasks using multiple tools?"}
+{"_id": "q131", "text": "How can graph-based nearest neighbor search be improved to better align with semantic relevance in large-scale document retrieval?"}
+{"_id": "q132", "text": "How can urban delivery systems improve demand forecasting, estimated arrival times, and next-stop predictions by sharing geographic and semantic knowledge across different prediction tasks?"}
+{"_id": "q133", "text": "How do modern AI-powered health search tools cite sources in their responses to mental health queries, and how does this vary across different platforms and languages?"}
+{"_id": "q134", "text": "How can a recommendation system efficiently use detailed user preference reasoning without regenerating it for every request?"}
+{"_id": "q135", "text": "How can retrieval-augmented generation systems improve when they fail to retrieve relevant information or fail to use retrieved information effectively?"}
+{"_id": "q136", "text": "Where can I find a structured dataset of migration policy reports from European countries covering the last decade?"}
+{"_id": "q137", "text": "What are the most efficient methods for extracting product prices from e-commerce websites while balancing accuracy and computational cost?"}
+{"_id": "q138", "text": "How can I find mobile apps that perform similar functions rather than just semantically related ones?"}
+{"_id": "q139", "text": "How does adding document retrieval to large language models affect their safety when responding to harmful or dangerous requests?"}
+{"_id": "q140", "text": "How can a subword tokenization method automatically determine the optimal vocabulary size while balancing compression and language model performance?"}
+{"_id": "q141", "text": "How can a text-only large language model answer questions about a physical environment without processing visual input directly?"}
+{"_id": "q142", "text": "How does the personality of an AI assistant affect user behavior and trust in different types of information-seeking tasks?"}
+{"_id": "q143", "text": "How can argument structure analysis improve the alignment of requirements across different cybersecurity standards?"}
+{"_id": "q144", "text": "What are the biases in question-answering systems when tested with culturally specific stereotypes from Bangladesh in both Bangla and English?"}
+{"_id": "q145", "text": "How can retrieval-augmented generation systems dynamically adjust their retrieval and generation components to improve efficiency without sacrificing accuracy across different types of questions?"}
+{"_id": "q146", "text": "How can adversarial attacks manipulate the way a language model agent stores and retains information from past interactions, and what are the most vulnerable stages in this memory formation process?"}
+{"_id": "q147", "text": "How can an AI agent system dynamically choose the most cost-effective model for each step in a multi-step task to balance performance and computational cost?"}
+{"_id": "q148", "text": "What datasets are available to train language models to use visual reasoning steps alongside text for solving complex multi-step problems?"}
+{"_id": "q149", "text": "How can a database system accurately estimate query result sizes when dealing with both text patterns and numerical ranges in the same query?"}
+{"_id": "q150", "text": "How can an AI agent efficiently answer complex analytical questions by selectively exploring structured knowledge sources without reading all available data?"}

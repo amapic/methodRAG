@@ -1,0 +1,21 @@
+# Secrets : ne jamais versionner
+.env
+
+# Environnements et fichiers Python
+venv/
+venv*/
+.venv/
+__pycache__/
+*.pyc
+
+# Données téléchargées et caches (recalculables)
+datasets/
+embeddings_cache/
+*.npy
+llm_cache.json
+hyde_cache.json
+rerank_cache.json
+questions_cache.json
+contamination_cache.json
+
+.DS_Store

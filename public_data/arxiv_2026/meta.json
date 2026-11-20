@@ -1,0 +1,12 @@
+{
+ "source": "arXiv API (https://export.arxiv.org/api/query)",
+ "collected_on": "2026-11-03",
+ "categories": [
+  "cs.CL",
+  "cs.IR"
+ ],
+ "submitted_from": "2026-08-01",
+ "submitted_to": "2026-10-31",
+ "n_docs": 1945,
+ "min_chars": 300
+}
